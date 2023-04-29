@@ -1,0 +1,12 @@
+body {
+  background-color: rgb(170, 222, 223);
+}
+.word-count {
+  font-weight: bold;
+}
+.char-count {
+  font-weight: bold;
+}
+.time-count {
+  font-weight: bold;
+}
