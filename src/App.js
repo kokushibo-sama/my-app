@@ -31,9 +31,10 @@ function App() {
         {/* </Route> */}
         {/* <Route path="/"> */}
         <TextForm heading="This is My Heading" mode={mode} />
+          <AboutUs />
       </div>
-      <div className="container m-3">
-        <AboutUs />
+//       <div className="container m-3">
+        
         {/* </Route> */}
         {/* <Route
               exact
@@ -42,7 +43,7 @@ function App() {
             />
             <Route exact path="/about" element={<AboutUs mode={mode} />} />
           </Routes> */}
-      </div>
+//       </div>
       {/* </Router> */}
     </>
   );
